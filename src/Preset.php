@@ -27,7 +27,6 @@ class Preset extends AlaraPreset
     public static function updatePackageArray($packages)
     {
         return array_merge([
-            'laravel-mix'          => '^2.1.11',
             'laravel-mix-tailwind' => '~0.1.0',
             'laravel-mix-purgecss' => '~1.0.5',
             'postcss-import'       => '^11.1.0',
