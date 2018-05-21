@@ -1,6 +1,6 @@
 <?php
 
-namespace Alara\AlaraPreset;
+namespace Alara\LaravelPreset;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
