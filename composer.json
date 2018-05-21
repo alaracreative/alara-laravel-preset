@@ -1,0 +1,23 @@
+{
+    "name": "alaracreative/alara-preset",
+    "description": "The default Alara Laravael starting point",
+    "keywords": ["laravel", "laravel preset", "tailwind", "vue"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Scott Zirkel",
+            "email": "scott@alaracreative.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Alara\\AlaraPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Alara\\AlaraPreset\\AlaraServiceProvider"]
+        }
+    }
+}
