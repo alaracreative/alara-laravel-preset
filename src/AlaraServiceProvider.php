@@ -16,6 +16,8 @@ class AlaraServiceProvider extends ServiceProvider
     {
         PresetCommand::macro('alara', function ($command) {
             Preset::install();
+
+            $command->info('BAM! You\'ve been Alaraveled!');
         });
     }
 }
