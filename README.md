@@ -13,3 +13,5 @@ Starts with:
 - Vue
 
 Also removes `SASS` directory in favor of a `CSS` directory for `PostCss` and adds a custom `.editorconfig`.
+
+Inspired by Laracasts tutorial.
