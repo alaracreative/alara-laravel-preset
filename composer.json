@@ -1,6 +1,6 @@
 {
     "name": "alaracreative/laravel-preset",
-    "description": "The default Alara Laravael starting point",
+    "description": "The default Alara Laravael starting point.",
     "keywords": ["laravel", "laravel preset", "tailwind", "vue"],
     "license": "MIT",
     "authors": [
