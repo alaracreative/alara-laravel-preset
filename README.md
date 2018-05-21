@@ -1,6 +1,6 @@
 # Laravel Preset
 
-The starting point for all **Alara Creative** Laravel projects.
+The starting point for all **[Alara Creative](https://alaracreative.com)** Laravel projects.
 
 Starts with:
 
