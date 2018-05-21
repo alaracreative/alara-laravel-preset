@@ -12,12 +12,12 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Alara\\LaravelPreset\\": "src/"
+            "Alara\\AlaravelPreset\\": "src/"
         }
     },
     "extra": {
         "laravel": {
-            "providers": ["Alara\\LaravelPreset\\AlaraServiceProvider"]
+            "providers": ["Alara\\AlaravelPreset\\AlaraServiceProvider"]
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Alara\LaravelPreset;
+namespace Alara\AlaravelPreset;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
