@@ -15,3 +15,11 @@ Starts with:
 Also removes `SASS` directory in favor of a `CSS` directory for `PostCss` and adds a custom `.editorconfig`.
 
 Inspired by Laracasts tutorial.
+
+## Installation
+
+Create a new Laravel project.
+
+Require via composer: `composer require alaracreative/alara-laravel-preset`
+
+Yay!
