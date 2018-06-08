@@ -9,7 +9,7 @@ mix.postCss('resources/assets/css/app.css', 'css', [
   precss(),
 ]).tailwind()
 
-mix.copy('resources/assets/images', 'images', false)
+// mix.copy('resources/assets/images', 'images', false)
 
 mix.js('resources/assets/js/app.js', 'js')
 
