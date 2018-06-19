@@ -1,19 +1,19 @@
 const { mix } = require('laravel-mix')
 const precss = require('precss')
+const tailwindcss = require('tailwindcss')
 const atImport = require('postcss-import')
 require('laravel-mix-purgecss')
-require('laravel-mix-tailwind')
 
-mix.postCss('resources/assets/css/app.css', 'css', [
+mix.postCss('resources/assets/css/main.css', 'public/css', [
   atImport(),
   precss(),
-]).tailwind()
+  tailwindcss('./tailwind.js')
+])
 
 // mix.copy('resources/assets/images', 'images', false)
 
 mix.js('resources/assets/js/app.js', 'js')
-
-mix.extract(['vue', 'axios'])
+  .extract(['vue', 'axios'])
 
 if (mix.inProduction()) {
   mix.purgeCss()
