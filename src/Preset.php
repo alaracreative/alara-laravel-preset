@@ -15,6 +15,9 @@ class Preset extends AlaraPreset
         static::updateMix();
         static::updateScripts();
         static::updateEditorConfig();
+        static::installNpm();
+        static::installNpm();
+        static::initTailwind();
     }
 
     public static function updateStyles()
@@ -54,5 +57,15 @@ class Preset extends AlaraPreset
     public static function updateEditorConfig()
     {
         copy(__DIR__ . '/stubs/.editorconfig', base_path('.editorconfig'));
+    }
+    
+    public static function installNpm()
+    {
+        system('npm install');
+    }
+    
+    public static function initTailwind()
+    {
+        system('node_modules/.bin/tailwind init tailwind.js');
     }
 }
