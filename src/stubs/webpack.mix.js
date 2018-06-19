@@ -4,7 +4,7 @@ const tailwindcss = require('tailwindcss')
 const atImport = require('postcss-import')
 require('laravel-mix-purgecss')
 
-mix.postCss('resources/assets/css/main.css', 'public/css', [
+mix.postCss('resources/assets/css/app.css', 'public/css', [
   atImport(),
   precss(),
   tailwindcss('./tailwind.js')
