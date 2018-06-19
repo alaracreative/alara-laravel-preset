@@ -16,7 +16,6 @@ class Preset extends AlaraPreset
         static::updateScripts();
         static::updateEditorConfig();
         static::installNpm();
-        static::installNpm();
         static::initTailwind();
     }
 
