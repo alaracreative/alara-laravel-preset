@@ -27,11 +27,11 @@ class Preset extends AlaraPreset
     public static function updatePackageArray($packages)
     {
         return array_merge([
-            'laravel-mix-tailwind' => '~0.1.0',
-            'laravel-mix-purgecss' => '~1.0.5',
-            'postcss-import'       => '^11.1.0',
-            'precss'               => '^3.1.2',
-            'tailwind'             => '^0.5.3'
+            'laravel-mix-tailwind'    => '~0.1.0',
+            'laravel-mix-purgecss'    => '~1.0.5',
+            'postcss-import'          => '^11.1.0',
+            'precss'                  => '^3.1.2',
+            'tailwindcss'             => '^0.5.3'
         ], Arr::except($packages, [
             'bootstrap',
             'jquery',
