@@ -22,6 +22,8 @@ Create a new Laravel project.
 
 Require via composer: `composer require alaracreative/alara-laravel-preset`
 
+Install Preset: `php artisan preset alara`
+
 Install npm: `npm install`
 
 Setup Tailwind: `node_modules/.bin/tailwind init tailwind.js`
